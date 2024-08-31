@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+    <EditText
+        android:layout_marginTop="200dp"
+        android:id="@+id/TextFieldName"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:hint="@string/StudentName"
+        android:inputType="text"/>
+    <Spinner
+        android:id="@+id/SpinnerBatch"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"/>
+    <EditText
+        android:id="@+id/TextFieldAddress"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:hint="@string/StudentAddress"
+        android:inputType="textMultiLine"/>
+    <Button
+        android:id="@+id/ButtonAdmissionDateStart"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="@string/AdmissionDateStart"
+        android:textAllCaps="false" />
+    <Button
+        android:id="@+id/ButtonAdmissionDateEnd"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="@string/AdmissionDateEnd"
+        android:textAllCaps="false" />
+    <Button
+        android:id="@+id/ButtonFeesPaidOn"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="@string/FeesPaidOn"
+        android:textAllCaps="false" />
+    <EditText
+        android:id="@+id/TextFieldReference"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:hint="@string/Reference"
+        android:inputType="text"/>
+    <Button
+        android:id="@+id/ButtonAddStudent"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/ButtonAddStudent"/>
+</LinearLayout>

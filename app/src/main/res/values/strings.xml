@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="StudentName">Name</string>
+    <string name="StudentAddress">Address</string>
+    <string name="AdmissionDateStart">Admission Date Start</string>
+    <string name="AdmissionDateEnd">Admission Date End</string>
+    <string name="FeesPaidOn">Fees Paid On</string>
+    <string name="Reference">Reference</string>
+    <string name="ButtonAddStudent">Add Student</string>
+</resources>
